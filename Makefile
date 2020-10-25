@@ -7,3 +7,6 @@ install:
 
 jupyter:
 	env/bin/python -m ipykernel install --user --name=Ensai
+
+clean:
+	rm -r TP1/outputs
